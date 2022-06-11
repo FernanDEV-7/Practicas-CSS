@@ -1,0 +1,150 @@
+/*
+Colores
+  dark-purple: hsl(300, 43%, 22%)
+  pink:hsl(333, 80%, 67%)
+  purple: hsl(303, 10%, 53%)
+  soft-white: hsl(300, 24%, 96%)
+  background-color: hsl(0, 0%, 90%);
+
+Fuente de la página
+  https://fonts.google.com/specimen/Karla
+  Estilos 200 y 400
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color:hsl(0, 0%, 90%); ;
+  font-family: 'Karla', sans-serif;
+  margin: 0;
+  color: white;
+}
+
+/* img position */
+
+.top-dot,
+.bot-dot{
+  position: absolute;
+}
+
+.top-dot{
+  left: 0;
+  top: 0;
+}
+
+.bot-dot{
+  right: 0;
+  bottom: 0;
+}
+
+/* header */
+
+.header{
+  position: relative;
+  margin: 1.5em auto;
+  width: 1200px;
+}
+
+.header-box1{
+  width: 300px;
+  margin-right:300px ;
+}
+
+.main-title{
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.rate-container,
+.header-box1{
+  position: relative;
+  display: inline-block;
+}
+
+.rate{
+  position: relative;
+  line-height: 4;
+  background-color: rgb(255 255 255/0.9);
+  margin: 1em auto;
+  padding: 0 2em;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.rate-text{
+  color: rgb(0 0 0/0.7);
+  vertical-align: middle;
+  padding-left: 2rem;
+}
+
+.rate-2{
+  left: 50px;
+}
+
+.rate-3{
+  left: 100px;
+}
+
+/* testimonios */
+
+.testimonials{
+  position: relative;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+.user_card{
+  position: relative;
+  width: 400px;
+  height: 220px;
+  margin: 0;
+  display: inline-block;
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 1em 2em;
+  margin-left: 2rem;
+}
+
+.card-text{
+  font-weight: 200;
+}
+
+.user_img{
+  border-radius: 50%;
+}
+
+.user_info{
+  display: inline-block;
+  margin-left: 1rem;
+}
+
+.user_img,
+.user_info{
+  vertical-align: middle;
+}
+
+.card-2{
+  top: 50px;
+}
+
+.card-3{
+  top: 100px;
+}
+
+
+/* colores de textos */
+
+.dark-purple--text{
+  color: hsl(300, 43%, 22%);
+}
+
+.purple-text{
+  color: hsl(303, 10%, 53%);
+}
+
+.text-pink{
+  color:hsl(333, 80%, 67%) ;
+}

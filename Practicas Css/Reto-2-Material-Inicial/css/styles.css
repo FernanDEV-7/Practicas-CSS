@@ -1,0 +1,164 @@
+/*
+Colores
+  Tarjetas
+    Red: hsl(0, 78%, 62%)
+    Cyan: hsl(180, 62%, 55%)
+    Orange: hsl(34, 97%, 64%)
+    Blue: hsl(212, 86%, 64%)
+  Sombra
+    Dark Blue: hsl(240, 25%, 50%) al 20% de opacidad;
+  Texto
+    Grey: hsl(229, 6%, 66%)
+  Fondo de la tarjeta y del background
+    White: hsl(0, 0%, 93%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Poppins
+  Estilos 200, 400 y 600
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: hsl(0, 0%, 93%);
+}
+
+/* Header */
+
+.header{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.main-title{
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.second-title{
+  margin-top: 0;
+  margin-bottom: 0.7em;
+}
+
+.subtitle{
+  width: 30%;
+  margin: 0 auto;
+}
+
+.subtitle,
+.card__description{
+  font-size: 0.9em;
+}
+
+.text-thin{
+  font-weight: 200;
+}
+
+.text-bold{
+  font-weight: 600;
+}
+
+/* Main */
+
+.cards{
+  width:1200px;
+  height: 550px;
+  position: relative;
+  margin: 0em auto;
+  /* cards es el contenedor principal de las cartas, tienen que tener un alto y ancho declarado, position relative para que sea el padre posicionado para el absolute */
+}
+
+.card{
+  position: absolute;
+  border-radius: 16px;
+  box-shadow: 5px 5px 5px hsl(240 25% 50% / 0.2);
+  overflow: hidden;
+  width: 350px;
+  height: 225px;
+  padding: 1em 2em;
+}
+
+.card__left{
+  left: 0;
+}
+
+.card__top{
+  top: 0;
+}
+
+.card__bottom{
+  bottom: 50px;
+}
+
+.card__bottom,
+.card__top{
+  left: 420px;
+}
+
+.card__right{
+  right: 0;
+}
+
+.card__left,
+.card__right{
+  top: 100px;
+}
+
+
+/* colores y estilos de tarjeta*/
+
+.text-gray{
+  color: hsl(229, 6%, 66%);
+}
+
+.card--cyan{
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.card--red{
+  border-top: 5px solid hsl(0, 78%, 62%) ;
+}
+
+.card--orange{
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+
+.card--blue{
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+.card__title,
+.card__description{
+  text-align: left;
+}
+
+.card__icon{
+  position: absolute;
+  left:250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

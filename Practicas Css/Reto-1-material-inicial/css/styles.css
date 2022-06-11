@@ -1,0 +1,116 @@
+/*
+  Color de fondo: hsl(185, 75%, 39%)
+  Color del texto gris: hsl(227, 10%, 46%)
+ */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  background-color:hsl(185, 75%, 39%) ;
+  overflow: hidden;
+  /* position: relative; */
+  text-align: center;
+  /* vertical-align: middle; */
+  font-size: 1.3rem;
+  font-family: sans-serif;
+
+}
+
+.header{
+  height: 200px;
+}
+
+.top-dot,
+.bot-dot{
+  position: absolute;
+}
+.top-dot{
+  left: -450px;
+  top: -300px;
+}
+
+.bot-dot{
+  top: 500px;
+  right: -450px;
+}
+
+.card{
+  position: relative;
+  width: 450px;
+  height: 450px;
+  margin: 10em auto;
+  background-color: #fff;
+  border-radius: 2em;
+  overflow: hidden;
+  text-align: center;
+  /* vertical-align: middle; */
+}
+
+
+
+.user__img{
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  background-color:#fff;
+  border: #fff 5px solid;
+/* que sea relative no significa que no se puede posicionar, solo tendra como defecto un espacio asignado */
+}
+
+
+.card__patern{
+  position: relative;
+  width: 100%;
+}
+
+.card__body{
+  position: relative;
+  /* display: inline; */
+  height: 125px;
+}
+
+.user__info{
+  display: inline-block;
+}
+
+.text__gray{
+  color:hsl(227, 10%, 46%) ;
+  padding: 0;
+  margin: 0;
+}
+
+.card__foot{
+  position: relative;
+
+  width: 100%;
+}
+.estadisticas{
+  position:relative;
+  display: inline-block;
+  padding: 0 1.5em;
+}
+
+.number{
+  font-size: 1.3em;
+  padding: 0;
+  margin: 0.6em auto;
+}
+
+.card__foot{
+  border-top: hsl(227 10% 46% / 0.3) solid 0.1px;
+  margin: 0;
+}
+
+.description{
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+

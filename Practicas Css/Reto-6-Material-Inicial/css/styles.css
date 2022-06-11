@@ -1,0 +1,136 @@
+/*
+Colores
+  purple: hsl(263, 55%, 52%)
+  grey: hsl(217, 19%, 35%)
+  dark-blue: hsl(219, 29%, 14%)
+
+Fuente de la página
+  https://fonts.google.com/specimen/Barlow+Semi+Condensed
+  Estilos 500 y 600
+*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #333;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  margin: 0;
+  color: #fff;
+
+}
+
+/* Contenedor principal */
+
+.testimonials{
+  width: 1400px;
+  margin: 1.5em auto;
+  position: relative;
+}
+
+/* cartas general */
+
+.card{
+  vertical-align: top;
+  /* vertical-align:top es lo mas importante, esto hace que las cartas se coloquen verticalmente en la parte superior*/
+  position: relative;
+  background-color: white;
+  border-radius: 16px;
+  height: 350px;
+  margin: 0.5em;
+  padding: 1em 2em;
+  display: inline-block;
+}
+
+
+/* header general */
+
+.quotes{
+  position: absolute;
+  left: 350px;
+  top: 3em;
+  opacity: 0.5;
+}
+
+.user_img{
+  border-radius: 50%;
+}
+
+.user_info{
+  display: inline-block;
+}
+
+.user_info,
+.user_img{
+  vertical-align: middle;
+}
+
+.user_name,
+.user_category{
+  margin-left: 1em;
+}
+
+/* posicion de cartas*/
+
+.card-1{
+  width: 650px;
+}
+
+.card-2{
+  width: 350px;
+}
+
+.card-3{
+  width: 300px;
+  height: 725px;
+  right: 0;
+  
+}
+
+.card-4,
+.card-5{
+  position:absolute;
+  top: 375px;
+}
+
+.card-4{
+  width: 350px;
+  left: 0;
+}
+
+.card-5{
+  width: 650px;
+  left: 370px;
+}
+
+/* background colors*/
+
+.bkg-purple{
+  background-color: hsl(263, 55%, 52%);
+}
+
+.bkg-grey{
+  background-color: hsl(217, 19%, 35%);
+}
+
+.bkg-dark-blue{
+  background-color: hsl(219, 29%, 14%);
+}
+
+.card-3,
+.card-4{
+  color: #000;
+}
+
+/* font-size & font-weight*/
+
+.card_title{
+  position: relative;
+  font-weight: 600;
+}
+
+.card_text{
+  font-weight: 500;
+  opacity: 0.7;
+}
